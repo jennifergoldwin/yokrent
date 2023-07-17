@@ -1,0 +1,158 @@
+export const userData = [
+  {
+    id: "AD-001",
+    name: "Jessica",
+    email: "jessica@gmail.com",
+    password: "jessica123",
+    role: "admin",
+  },
+  {
+    id: "US-001",
+    name: "Anthon",
+    email: "anthon@gmail.com",
+    password: "anthon123",
+    role: "user",
+  },
+];
+export const mobilData = [
+  {
+    name: "Lorem ipsum dolor si amet",
+    harga: "Rp. 430.000",
+    kapasitas: "4 orang",
+    jenis: "Manual",
+    tahun: "2020",
+    status: "Tersedia",
+  },
+  {
+    name: "Lorem ipsum dolor si amet",
+    harga: "Rp. 430.000",
+    kapasitas: "4 orang",
+    jenis: "Manual",
+    tahun: "2020",
+    status: "Tersedia",
+  },
+  {
+    name: "Lorem ipsum dolor si amet",
+    harga: "Rp. 430.000",
+    kapasitas: "4 orang",
+    jenis: "Manual",
+    tahun: "2020",
+    status: "Tersedia",
+  },
+  {
+    name: "Lorem ipsum dolor si amet",
+    harga: "Rp. 430.000",
+    kapasitas: "4 orang",
+    jenis: "Manual",
+    tahun: "2020",
+    status: "Tersedia",
+  },
+  {
+    name: "Lorem ipsum dolor si amet",
+    harga: "Rp. 430.000",
+    kapasitas: "4 orang",
+    jenis: "Manual",
+    tahun: "2020",
+    status: "Tersedia",
+  },
+  {
+    name: "Lorem ipsum dolor si amet",
+    harga: "Rp. 430.000",
+    kapasitas: "4 orang",
+    jenis: "Manual",
+    tahun: "2020",
+    status: "Tersedia",
+  },
+];
+export const stepDiantar = [
+  "Pesanan dibuat",
+  "Mobil sedang dalam pengantaran",
+  "Terkirim",
+  "Sedang disewa",
+  "Pembayaran dikonfirmasi",
+  "Pesanan selesai",
+];
+export const stepDiambil = [
+  "Mobil sudah diambil",
+  "Sedang disewa",
+  "Pembayaran dikonfirmasi",
+  "Pesanan selesai",
+];
+export const sewaData = [
+  {
+    ktp: "123456789",
+    nama: "Putri Kamila",
+    hp: "+62 812345678",
+    startOrder: "23/4/2023",
+    endOrder: "20/5/2023",
+    email: "loremipsum@gmail.com",
+    pengiriman: {
+      id: 0,
+      title: "Antar ke alamat",
+    },
+    alamat: "lorem ipsum dolor....",
+    pos: "12345",
+    status: {
+      id: 0,
+      title: "Dikonfirmasi",
+    },
+    penyelesaian: "Pesanan Selesai",
+  },
+  {
+    ktp: "123456789",
+    nama: "Putri Kamila",
+    hp: "+62 812345678",
+    startOrder: "23/4/2023",
+    endOrder: "20/5/2023",
+    email: "loremipsum@gmail.com",
+    pengiriman: {
+      id: 0,
+      title: "Antar ke alamat",
+    },
+    alamat: "lorem ipsum dolor....",
+    pos: "12345",
+    status: {
+      id: 2,
+      title: "Dibatalkan",
+    },
+    penyelesaian: "Pesanan Selesai",
+  },
+  {
+    ktp: "123456789",
+    nama: "Putri Kamila",
+    hp: "+62 812345678",
+    startOrder: "23/4/2023",
+    endOrder: "20/5/2023",
+    email: "loremipsum@gmail.com",
+    pengiriman: {
+      id: 1,
+      title: "Ambil di kantor",
+    },
+    alamat: "lorem ipsum dolor....",
+    pos: "12345",
+    status: {
+      id: 1,
+      title: "Konfirmasi",
+    },
+    penyelesaian: "Pesanan Selesai",
+  },
+  {
+    ktp: "123456789",
+    nama: "Putri Kamila",
+    hp: "+62 812345678",
+    startOrder: "23/4/2023",
+    endOrder: "20/5/2023",
+    email: "loremipsum@gmail.com",
+    pengiriman: {
+      id: 0,
+      title: "Ambil di kantor",
+    },
+    alamat: "lorem ipsum dolor....",
+    pos: "12345",
+    status: {
+      id: 0,
+      title: "Dikonfirmasi",
+    },
+    penyelesaian: "Pesanan Selesai",
+  },
+];
